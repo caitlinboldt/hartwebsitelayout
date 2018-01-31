@@ -1,0 +1,215 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo Banner */
+div.logo {
+   background-color: whitesmoke;
+   color: rgb(75, 1, 75);
+   font-size: 36px;
+   padding: 20px 50px;
+   margin: 0;
+   text-align: left;
+   width: 100%;
+}
+
+/* Part 1 */
+div.part1 {
+    background-image: url(https://github.com/caitlinboldt/images-extraweek2/blob/master/IMG_3176.jpg?raw=true);
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+}
+.part1 h1 {
+    font-size: 120px;
+    color: rgb(75, 1, 75);
+    font-weight: 200;
+    margin-top: 150px;
+    margin-bottom: 0;
+    text-align: center;
+}
+hr {
+    background-color: rgb(75, 1, 75);
+    border: 0;
+    height: 4px;
+    width: 500px;
+}
+.part1 h6 {
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+}
+button.cta {
+    background-color: transparent;
+    border: 1px solid rgb(75, 1, 75);
+    color: whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 6px;
+    text-align: center;
+}
+button.cta:hover {
+    background-color: none;
+}
+.arrow {
+    color: whitesmoke;
+    display: block;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+/* Part 2 */
+div.part2 {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 50px;
+}
+.part2 h3 {
+    font-size: 42px;
+    font-weight: 300;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+.part2 p {
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px 180px 10px 180px;
+    text-align: center;
+}
+/* Part 3 */
+div.column {
+    display: inline-block;
+    margin: 15px;
+    padding: 80px 5px;
+    text-align: center;
+    width: 30%;
+}
+#mobile {
+    font-size: 50px;
+}
+#paperplane {
+    font-size: 50px;
+}
+#snowflake {
+    font-size: 50px;
+}
+.column h6 {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px;
+}
+.column p {
+    font-size: 12px;
+}
+
+/* Part 4 - Images */
+div.part4 {
+    background-color: whitesmoke;
+}
+div.part4 h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 2px;
+    padding-top: 50px;
+    text-align: center;
+}
+div.part4 h6 {
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;
+    padding: 10px 10px 50px 10px;
+    text-align: center;
+}
+div.column-img {
+    display: inline-block;
+    margin: 15px;
+    padding: 20px 5px;
+    text-align: center;
+    width: 30%;
+}
+.column-img img {
+    width: 100%;
+}
+
+/* Part 5 - Contact */
+div.part5 {
+    background-image: url(https://github.com/caitlinboldt/images-extraweek2/blob/master/IMG_5052.jpg?raw=true);
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+}
+.part5 h3 {
+    color: rgb(75, 1, 75);
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.part5 h6 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+form {
+    color: whitesmoke;
+    display: inline-block;
+}
+form button {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: rgb(75, 1, 75);
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+form > input,
+form > textarea {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: rgb(75, 1, 75);
+    display: block;
+    font-size: 16px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 400px;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+    width: 100%;
+}
+footer p {
+    float: left;
+    font-size: 12px;
+    padding: 10px;
+}
+footer ul {
+    float: right;
+    padding: 2px 10px;
+}
+footer ul li {
+    display: inline-block;
+    padding: 5px;
+}
+footer ul li a {
+    color: rgb(75, 1, 75);
+    padding: 10px;
+    text-decoration: none;
+}
+
