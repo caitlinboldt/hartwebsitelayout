@@ -59,9 +59,11 @@ button.cta {
 }
 button.cta:hover {
     background-color: none;
+    cursor: pointer;
 }
 .arrow {
     color: whitesmoke;
+    cursor: pointer;
     display: block;
     font-size: 40px;
     padding-top: 100px;
@@ -176,6 +178,9 @@ form button {
     display: inline-block;
     font-size: 16px;
     padding: 5px 10px;
+}
+form button:hover {
+    cursor: pointer;
 }
 form > input,
 form > textarea {
