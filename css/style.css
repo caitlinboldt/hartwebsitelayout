@@ -19,7 +19,7 @@ div.logo {
 
 /* Part 1 */
 div.part1 {
-    background-image: url(https://github.com/caitlinboldt/images-extraweek2/blob/master/IMG_3176.jpg?raw=true);
+    background-image: url(../img/IMG_3176.jpg);
     background-repeat: no-repeat;
     height: 800px;
     margin: 0;
@@ -145,7 +145,7 @@ div.column-img {
 
 /* Part 5 - Contact */
 div.part5 {
-    background-image: url(https://github.com/caitlinboldt/images-extraweek2/blob/master/IMG_5052.jpg?raw=true);
+    background-image: url(../img/IMG_5052.jpg);
     background-repeat: no-repeat;
     height: 800px;
     margin: 0;
@@ -220,11 +220,6 @@ footer ul li a {
 
 /* Media Queries */
 
-@media (min-width: 1500px) {
-    div.part1 {
-        background-size: contain;
-    }
-}
 @media (max-width: 1280px) {
     div.column {
         display: inline-block;
