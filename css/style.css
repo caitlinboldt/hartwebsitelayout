@@ -220,6 +220,11 @@ footer ul li a {
 
 /* Media Queries */
 
+@media (min-width: 1500px) {
+    div.part1 {
+        background-size: contain;
+    }
+}
 @media (max-width: 1280px) {
     div.column {
         display: inline-block;
