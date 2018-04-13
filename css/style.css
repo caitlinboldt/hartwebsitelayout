@@ -21,7 +21,7 @@ div.logo {
 div.part1 {
     background-image: url(../img/IMG_3176.jpg);
     background-repeat: no-repeat;
-    height: 800px;
+    height: 1000px;
     margin: 0;
     padding: 2px;
     text-align: center;
@@ -31,7 +31,7 @@ div.part1 {
     color: rgb(75, 1, 75);
     font-size: 120px;
     font-weight: 200;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 0;
     text-align: center;
 }
